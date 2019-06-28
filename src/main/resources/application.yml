@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      database: test
+      host: localhost
+      port: 27017
+    mongo:
+      repositories:
+        type: auto
+server:
+  port: 8082
+
+
+
+
